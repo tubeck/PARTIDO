@@ -1,0 +1,48 @@
+body {  /*Estilização de toda a página (o corpo)*/
+    border: 0;
+    margin: 0;
+    padding: 0;  /*Preenchimento*/
+    background-color: rgb(243, 243, 229);
+}
+header {  /*Estilização do cabeçalho*/
+    background-color: #c49a5b;
+    height: 200px;  /*Altura*/
+}
+.centro {  /*. = para classes*/  /*Estilização de tudo que estiver dentro da classe .centro*/
+    max-width: 1280px;  /*Largura se ajusta de acordo com o tamanho da janela*/
+    margin: 0 auto;
+}
+header #logo {  /*# = para IDs*/  /*Estilização da div #logo_topo do cabeçalho*/
+    float: left;
+}
+header #logo img {  /*Estilização da imagem da div #logo_topo do cabeçalho*/
+    height: 200px;
+}
+section {  /*Estilização da parte com texto (Nome, Turno...)*/
+    width: 100%;  /*Largura*/
+    min-height: 300px;  /*Altura se ajusta de acordo com o tamanho da janela*/
+    background-color: rgb(243, 243, 229);
+}
+section #img-pessoas {
+    width: 1400px;
+    background-size: 100%;
+    min-width: 1240px;
+}
+section h1 {
+    font-size: 75px;
+    font-family: "Montserrat", sans-serif;
+    margin: 30px 0 0 30px;
+}
+section #descrição {
+    font-size: 20px;
+    margin: 0 60px 0 60px;
+}
+section h3 {
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+    margin: 30px 0 0 40px; 
+}
+section #img-integrantes {
+    margin: 50px 0 0 0;
+
+}
