@@ -12,10 +12,10 @@ header {  /*Estilização do cabeçalho*/
     max-width: 1280px;  /*Largura se ajusta de acordo com o tamanho da janela*/
     margin: 0 auto;
 }
-header #logo {  /*# = para IDs*/  /*Estilização da div #logo_topo do cabeçalho*/
+header #logo {  /*# = para IDs*/  /*Estilização do ID #logo do cabeçalho*/
     float: left;
 }
-header #logo img {  /*Estilização da imagem da div #logo_topo do cabeçalho*/
+header #logo img {  /*Estilização do ID #logo, em que nele está presente a imagem (a logo) do cabeçalho*/
     height: 200px;
 }
 section {  /*Estilização da parte com texto (Nome, Turno...)*/
@@ -23,26 +23,33 @@ section {  /*Estilização da parte com texto (Nome, Turno...)*/
     min-height: 300px;  /*Altura se ajusta de acordo com o tamanho da janela*/
     background-color: rgb(243, 243, 229);
 }
-section #img-pessoas {
+section #img-pessoas {  /*Estilização da imagem presente em SECTION*/
     width: 1400px;
-    background-size: 100%;
-    min-width: 1240px;
+    text-align: center;
+    margin: 20px 10% 0 12%;
 }
-section h1 {
+section h1 {  /*Estilização do título com maior importância*/
     font-size: 75px;
     font-family: "Montserrat", sans-serif;
     margin: 30px 0 0 30px;
 }
-section #descrição {
+section #descrição {  /*Estilização*/
     font-size: 20px;
     margin: 0 60px 0 60px;
 }
-section h3 {
+section h3 {  /*Estilização do título h3 (de menor importância que o h1)*/
     font-size: 50px;
     font-family: "Montserrat", sans-serif;
-    margin: 30px 0 0 40px; 
+    margin: 30px 0 0 40px;    
 }
-section #img-integrantes {
-    margin: 50px 0 0 0;
-
+section .imagens {
+    height: 700px;
+}
+section .foto {  /*Estilização das duas fotos dos integrantes*/
+    float: left;
+    margin: 40px 10% 40px 13%;
+}
+footer {  /*Estilização do rodapé*/
+    height: 300px;
+    background-color: #c49a5b; 
 }
